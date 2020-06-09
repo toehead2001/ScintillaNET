@@ -150,18 +150,10 @@
   <ItemGroup>
     <Content Include="x64\License.txt" />
     <Content Include="x64\SciLexer.dll" />
-    <Content Include="x64\SciLexer.pdb" />
     <Content Include="x64\version.txt" />
     <Content Include="x86\License.txt" />
     <Content Include="x86\version.txt" />
     <Content Include="x86\SciLexer.dll" />
-    <Content Include="x86\SciLexer.pdb" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="x64\SciLexer.exp" />
-    <Content Include="x64\SciLexer.lib" />
-    <Content Include="x86\SciLexer.exp" />
-    <Content Include="x86\SciLexer.lib" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
